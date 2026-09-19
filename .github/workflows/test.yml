@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run OpsScript Gate
-        uses: Mresyzz/opsscript-gate@v0.2.1
+        uses: Mresyzz/opsscript-gate@v0.3.0
         with:
           script-path: install.sh
           shell: auto
